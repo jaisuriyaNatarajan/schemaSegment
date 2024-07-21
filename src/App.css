@@ -1,0 +1,191 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Main Container */
+
+.Main_container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Modal Styles */
+
+.Saving_Segment_Header {
+  background-color: cadetblue;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.Saving_Segment_Header h1 {
+  margin: 0;
+}
+
+.Blue_Box {
+  border: 2px solid cadetblue;
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Blue_Box div {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.Blue_Box div button {
+  opacity: 0.3;
+}
+
+.Blue_Box select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button Styles */
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: cadetblue;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #337ab7;
+}
+
+/* Anchor Tag Styles */
+
+a {
+  text-decoration: none;
+  color: cadetblue;
+  border-bottom: 1px solid cadetblue;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #337ab7;
+  border-bottom: 1px solid #337ab7;
+}
+
+.a_link {
+  margin-top: 10px;
+}
+
+/* Typography */
+
+h1,
+h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Dropdown Styles */
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+option {
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+option:hover {
+  background-color: #f0f0f0;
+  color: #337ab7;
+}
+
+/* Other Styles */
+
+.surya {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.display_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancelButton {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #f44336;
+}
+
+.Tracks {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
